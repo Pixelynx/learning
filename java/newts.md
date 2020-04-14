@@ -17,4 +17,5 @@
 * Classes are writted using _pascal case_
 * Methods and variables are written using _camel case_
 
-
+### Variables
+* Variables are declared by their type and a name
