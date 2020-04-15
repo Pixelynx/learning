@@ -19,8 +19,17 @@
 
 ### Variables
 * Variables are declared by their type and a name
-* `int`:
-    * Whole numbers
-    * Holds positive/negative numbers and zero
-    * Does not store fractions or numbers with decimals in them
-    * allows values between -2,147,483,648 and 2,147,483,647, inclusive (???)
+* *Primative Data Types*
+    * `int`:
+        * Whole numbers
+        * Holds positive/negative numbers and zero
+        * Does not store fractions or numbers with decimals in them
+        * allows values between -2,147,483,648 and 2,147,483,647, inclusive
+    * `double`:
+        * Can hold decimals
+        * Can hold very large and very small numbers
+    * `boolean`:
+        * Booleans are declared by using the keyword `boolean` before the variable name
+    * `char`:
+        * Can hold any character
+        * Character must be surrounded by single quotes
