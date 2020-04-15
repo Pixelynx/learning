@@ -33,3 +33,6 @@
     * `char`:
         * Can hold any character
         * Character must be surrounded by single quotes
+* *Objects*
+* `String`:
+    * Strings hold sequences of characters
