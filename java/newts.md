@@ -19,6 +19,9 @@
 
 ### Variables
 * Variables are declared by their type and a name
+* Variable names start with a valid letter, `$` or `_`
+* Numbers and no other symbols can start off a variable name
+
 * *Primative Data Types*
     * `int`:
         * Whole numbers
@@ -36,3 +39,7 @@
 * *Objects*
 * `String`:
     * Strings hold sequences of characters
+
+* *Static Checking*
+ * Java programs will not compile if a variable is assigned a value of an incorrect type
+ * Static typing helps by catching the bugs during programming rather than execution of code thus avoiding runtime errors
