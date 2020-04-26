@@ -1,1 +1,1 @@
-# Language Studies
+# Languages
