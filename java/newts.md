@@ -23,7 +23,6 @@
 * Numbers and no other symbols can start off a variable name
 
 **Primative Data Types**
-
     * `int`:
         * Whole numbers
         * Holds positive/negative numbers and zero
@@ -40,11 +39,9 @@
 **Objects**
 * `String`:
     * Strings hold sequences of characters
-
 **Static Checking**
  * Java programs will not compile if a variable is assigned a value of an incorrect type
  * Static typing helps by catching the bugs during programming rather than execution of code thus avoiding runtime errors
-
 **Operators**
     * Division has different results with integers. The `/` operator does _integer division_ so any remainder will be lost _(Reminder: `int` cannot store decimals)_.
 
