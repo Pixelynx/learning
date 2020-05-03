@@ -43,3 +43,6 @@
 * *Static Checking*
  * Java programs will not compile if a variable is assigned a value of an incorrect type
  * Static typing helps by catching the bugs during programming rather than execution of code thus avoiding runtime errors
+
+* *Operators*
+    * Division has different results with integers. The `/` operator does _integer division_ so any remainder will be lost _(Reminder: `int` cannot store decimals)_.
