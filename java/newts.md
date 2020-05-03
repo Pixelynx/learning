@@ -23,6 +23,7 @@
 * Numbers and no other symbols can start off a variable name
 
 **Primative Data Types**
+
     * `int`:
         * Whole numbers
         * Holds positive/negative numbers and zero
