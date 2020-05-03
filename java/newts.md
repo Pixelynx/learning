@@ -22,7 +22,7 @@
 * Variable names start with a valid letter, `$` or `_`
 * Numbers and no other symbols can start off a variable name
 
-* **Primative Data Types**
+__**Primative Data Types**__
     * `int`:
         * Whole numbers
         * Holds positive/negative numbers and zero
@@ -36,14 +36,14 @@
     * `char`:
         * Can hold any character
         * Character must be surrounded by single quotes
-* **Objects**
+__**Objects**__
 * `String`:
     * Strings hold sequences of characters
 
-* **Static Checking**
+__**Static Checking**__
  * Java programs will not compile if a variable is assigned a value of an incorrect type
  * Static typing helps by catching the bugs during programming rather than execution of code thus avoiding runtime errors
 
-* **Operators**
+__**Operators**__
     * Division has different results with integers. The `/` operator does _integer division_ so any remainder will be lost _(Reminder: `int` cannot store decimals)_.
 
