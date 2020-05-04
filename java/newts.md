@@ -74,3 +74,6 @@
 * Used to create instances with individual state
 * Parameters specify the type and name of data available for reference within a method's scope
 * Set the instance field equal to the constructor parameter
+* Once values are passed into the method call, they become the state of the instance
+    * The type given to the invocation **must match** the type declared by the parameter
+    * You access the value of a field using the _dot operator_ (`.`)
