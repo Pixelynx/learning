@@ -54,3 +54,23 @@
     * classes can have an _instance_, or an _object_ of that class which will be referred to using the `this` keyword
     * _instances_ of a class will have their own individual _state_ and can have shared behavior, or _methods_
         * *Exampe:* A savings account for a bank may have SavingsAccount class which would contain a _state_ to keep track of an individual's balance and could have shared methods for withdrawing and depositing money. Even if entities had the same balance in their accounts their accounts would be separate from one another.
+
+**Syntax**
+* `public`: an _access level modifier_ that allows for **other** classes to interact with the class
+
+**Constructors**
+* Constructors are object (instances of a class)
+* The constructor shares a name with the class
+* We create instances of the class by _calling_ or _invoking_ the constructor within `main()`
+* Variables that reference an instance name have a `type` of that class name
+* We invoke the constructor `method()` and use the `new` keyword to indicate we are creating an instance
+
+**Instance Fields**
+* We'll add associated data to an object by introducing _instance variables_ and _instance fields_
+* _instance fields_ are the state within an object
+* An _instance variable_ is declared within the class to be available to the constructor
+
+**Constructor Parameters**
+* Used to create instances with individual state
+* Parameters specify the type and name of data available for reference within a method's scope
+* Set the instance field equal to the constructor parameter
