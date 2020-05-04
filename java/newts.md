@@ -48,3 +48,9 @@
 **Operators**
 * Division has different results with integers. The `/` operator does _integer division_ so any remainder will be lost _(Reminder: `int` cannot store decimals)_.
 
+## Classes & Objects
+* `object-oriented programming` is where you have programs that are built around objects and their interactions
+*  `classes` are a blueprint for objects which will detail the general structure 
+    * classes can have an _instance_, or an _object_ of that class which will be referred to using the `this` keyword
+    * _instances_ of a class will have their own individual _state_ and can have shared behavior, or _methods_
+        * *Exampe:* A savings account for a bank may have SavingsAccount class which would contain a _state_ to keep track of an individual's balance and could have shared methods for withdrawing and depositing money. Even if entities had the same balance in their accounts their accounts would be separate from one another.
