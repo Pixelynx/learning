@@ -55,9 +55,6 @@
     * _instances_ of a class will have their own individual _state_ and can have shared behavior, or _methods_
         * *Exampe:* A savings account for a bank may have SavingsAccount class which would contain a _state_ to keep track of an individual's balance and could have shared methods for withdrawing and depositing money. Even if entities had the same balance in their accounts their accounts would be separate from one another.
 
-**Syntax**
-* `public`: an _access level modifier_ that allows for **other** classes to interact with the class
-
 **Constructors**
 * Constructors are object (instances of a class)
 * The constructor shares a name with the class
@@ -79,3 +76,18 @@
     * You access the value of a field using the _dot operator_ (`.`)
 
 ## Methods
+* Allow us to create blocks of code that are reusable and modular
+* The _method signature_ gives the program some information about the method
+* The method signature declares the method's type, name, and parameters
+* Method calls occur inside the `main()` method
+* Using methods to change instance fields is how we update the state of an object to make it more flexible
+
+**Scope**
+* Cannot access variables that are defined inside a method outside the scope of that method
+* Variables defined at the top of a class can be declared within all methods of that class
+* In order to use a variable outside of the method it is declared in, you must define the variable as a parameter of the method
+
+**Syntax**
+* `public`: an _access level modifier_ that allows for **other** classes to interact with the class
+* `void`: a keyword that means there is no specific output for the method
+* `datatype keywords` can be passed in indicate that the method will return a value of that type
