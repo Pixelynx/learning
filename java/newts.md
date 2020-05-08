@@ -91,3 +91,13 @@
 * `public`: an _access level modifier_ that allows for **other** classes to interact with the class
 * `void`: a keyword that means there is no specific output for the method
 * `datatype keywords` can be passed in indicate that the method will return a value of that type
+
+## Arrays
+* Declaration: variable type with empty sqaure brackets then name
+* Arrays are declared explicitly using curly braces
+    * Ex: `String[] menuItems = {"Veggie hot dog", "Potato salad", "Cornbread", "Roasted broccoli", "Coffee ice cream"};`
+* Importing: `java.util.Arrays` contains many useful methods for arrays like `Arrays.toString()`
+* Empty arrays have to be initialized with a fixed sized
+    * Ex: `String[] menuItems = new String[5];`
+    * Once the size of an array has been declared it can not be changed
+
