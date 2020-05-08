@@ -99,5 +99,17 @@
 * Importing: `java.util.Arrays` contains many useful methods for arrays like `Arrays.toString()`
 * Empty arrays have to be initialized with a fixed sized
     * Ex: `String[] menuItems = new String[5];`
-    * Once the size of an array has been declared it can not be changed
+* Once the size of an array has been declared it can not be changed
+
+## Arraylists
+* To represent dynamic lists, we use _Arraylists_
+    * Unlike with _Arrays_ you can add and remove elements from _Arraylists_
+* `import java.util.Arraylist`
+* Declaration: We use angel brackets to declare the type of Arraylist
+    * Ex: `ArrayList<String> babyNames;`
+* Angel brackets are used for `generics`
+* `Generics`: Java construct that allows us to define classes and objects as parameters of an _Arraylist_.
+    * For this reason we cannot use _primitive types_ in Arraylists
+        * `ArrayList<int> ages;` -- Will not compile
+        * `ArrayList<Integer> ages;` -- Will compile
 
