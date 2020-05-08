@@ -37,6 +37,12 @@
     * Can hold any character
     * Character must be surrounded by single quotes
 
+**Generic Data Types**
+* _Used to declare an Arraylists instead of it's primative counterpart_
+* `<Integer>`
+* `<Double>`
+* `<Char>`
+
 **Objects**
 * `String`:
     * Strings hold sequences of characters
@@ -101,10 +107,10 @@
     * Ex: `String[] menuItems = new String[5];`
 * Once the size of an array has been declared it can not be changed
 
-## Arraylists
-* To represent dynamic lists, we use _Arraylists_
-    * Unlike with _Arrays_ you can add and remove elements from _Arraylists_
-* `import java.util.Arraylist`
+## ArrayLists
+* To represent dynamic lists, we use _ArrayLists_
+    * Unlike with _Arrays_ you can add and remove elements from _ArrayLists_
+* `import java.util.ArrayList`
 * Declaration: We use angel brackets to declare the type of Arraylist
     * Ex: `ArrayList<String> babyNames;`
 * Angel brackets are used for `generics`
@@ -112,4 +118,15 @@
     * For this reason we cannot use _primitive types_ in Arraylists
         * `ArrayList<int> ages;` -- Will not compile
         * `ArrayList<Integer> ages;` -- Will compile
-
+        * _Initializing_: `ages = new ArrayList<Integer>();`
+* **Adding Items**: `.add(value)` 
+    * Adds an item to the end of an ArrayList
+* **ArrayList Size**: `.size()` 
+* **Access Indicies**: `.get(value)`
+    * bracket notation will not work with ArrayLists
+* **Changing Values**: `.set(index, value)`
+    * Rewriting values using bracket notation will not work with ArrayLists
+* **Removing Items**: `.remove(index)`
+    * If you remove an item by specifying the value. The **FIRST** instance of that value will be removed
+* **Get Index**: `.indexOf(value)`
+    * Returns index of specified value if exists
