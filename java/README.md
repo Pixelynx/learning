@@ -131,6 +131,11 @@
 * **Get Index**: `.indexOf(value)`
     * Returns index of specified value if exists
 
+## Loops
+* `for-each`: 
+    * syntax:
+        * _for (String inventoryItem : inventoryItems) { // do something with each inventoryItem }_
+
 ## Libraries
 * `java.util.Arrays`
 * `java.util.ArrayList`
