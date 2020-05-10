@@ -38,7 +38,7 @@
     * Character must be surrounded by single quotes
 
 **Generic Data Types**
-* _Used to declare an Arraylists instead of it's primative counterpart_
+* _Used to declare an ArrayLists instead of it's primative counterpart_
 * `<Integer>`
 * `<Double>`
 * `<Char>`
@@ -130,3 +130,8 @@
     * If you remove an item by specifying the value. The **FIRST** instance of that value will be removed
 * **Get Index**: `.indexOf(value)`
     * Returns index of specified value if exists
+
+## Libraries
+* `java.util.Arrays`
+* `java.util.ArrayList`
+* `java.util.Random`
