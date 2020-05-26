@@ -70,6 +70,18 @@
     * by adding `final` before a parent class method's access modifier, we disallow any child class from changing that method
     * this is helpful in limiting bugs that may be caused by modifing a particular method
 
+## Polymorphism
+* Derives from Greek meaning "many forms"
+* Allows a child class to share the information and behavior of it's parent class while also incorporating it's own functionality
+* ADVANTAGES:
+    * Simplifying syntax
+    * Reducing congnitive overload for developers
+* You cannot use a generic parent class instance where a child class instance is required
+* One common use for polymorphism is _overriding_ the method of a parent class within a child class
+    * This is useful if we want our child class method to have the same name as the parent class but behave differently in some way
+    * In order to properly override a method, the method in the child class must have the following in common with the corresponding method: method name, return type, number and type of parameters
+    * You will also need the `@Override` keyword declared above the method
+
 **Constructors**
 * Constructors are object (instances of a class)
 * The constructor shares a name with the class
