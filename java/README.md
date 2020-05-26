@@ -81,6 +81,12 @@
     * This is useful if we want our child class method to have the same name as the parent class but behave differently in some way
     * In order to properly override a method, the method in the child class must have the following in common with the corresponding method: method name, return type, number and type of parameters
     * You will also need the `@Override` keyword declared above the method
+* One facet of polymorphism is the ability to use a child class object where a parent class object is expected
+    * One way to do this is to explicitly instantiate a child class as a member of the parent class
+        * Ex: `BankAccount kaylasAccount = new CheckingAccount()`
+            * We can use **kaylasAccount** as if it were **BankAccount** in any situation where the **BankAccount** object would be expected (Using the explicit child object as parent syntax is most helpful when we want to declare objects in bulk)
+            * The compiler just considers **kaylasAccount** to be any old **BankAccount**, but because method overriding is handled at runtime, if you call a **BankAccount** method, we'll see something **CheckingAccount** specific if it exists
+            * However as the compiler believes **kaylasAccount** to just be a **BankAccount** we cannot call a method that is exclusive to the **CheckingAccount** class on it
 
 **Constructors**
 * Constructors are object (instances of a class)
