@@ -66,6 +66,9 @@
 * Only one file needs the `main()` method; this is the file that will run
     * Various classes in our Java package will have access to each other, so we can instantiate one class inside of another
 * Passing values to `super()` will modify the constructor of the child class and instantiate that class with the constructor fields automatically assigned 
+* In addition to access modifiers, there's another way to establish how a child class can interact with inherited parent class members using the `final` keyword
+    * by adding `final` before a parent class method's access modifier, we disallow any child class from changing that method
+    * this is helpful in limiting bugs that may be caused by modifing a particular method
 
 **Constructors**
 * Constructors are object (instances of a class)
