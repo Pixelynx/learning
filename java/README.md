@@ -61,6 +61,12 @@
     * _instances_ of a class will have their own individual _state_ and can have shared behavior, or _methods_
         * *Exampe:* A savings account for a bank may have SavingsAccount class which would contain a _state_ to keep track of an individual's balance and could have shared methods for withdrawing and depositing money. Even if entities had the same balance in their accounts their accounts would be separate from one another.
 
+## Inheritance
+* Child classes inherit traits from the parent class
+* Only one file needs the `main()` method; this is the file that will run
+    * Various classes in our Java package will have access to each other, so we can instantiate one class inside of another
+* Passing values to `super()` will modify the constructor of the child class and instantiate that class with the constructor fields automatically assigned 
+
 **Constructors**
 * Constructors are object (instances of a class)
 * The constructor shares a name with the class
@@ -91,7 +97,7 @@
 **Scope**
 * Cannot access variables that are defined inside a method outside the scope of that method
 * Variables defined at the top of a class can be declared within all methods of that class
-* In order to use a variable outside of the method it is declared in, you must define the variable as a parameter of the method
+* In order to use a variable outside of the method it is declared in, you must define the variable as a parameter of the 
 
 **Syntax**
 * `public`: an _access level modifier_ that allows for **other** classes to interact with the class
