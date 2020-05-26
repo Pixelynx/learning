@@ -99,6 +99,12 @@
 * Variables defined at the top of a class can be declared within all methods of that class
 * In order to use a variable outside of the method it is declared in, you must define the variable as a parameter of the 
 
+**Modifiers**
+* `public`: accessible by all classes
+* `protected`: restricts global access
+* `no modifier`: restricts global and child class access
+* `private`: only accessible by that class
+
 **Syntax**
 * `public`: an _access level modifier_ that allows for **other** classes to interact with the class
 * `void`: a keyword that means there is no specific output for the method
