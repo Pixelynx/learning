@@ -87,6 +87,7 @@
             * We can use **kaylasAccount** as if it were **BankAccount** in any situation where the **BankAccount** object would be expected (Using the explicit child object as parent syntax is most helpful when we want to declare objects in bulk)
             * The compiler just considers **kaylasAccount** to be any old **BankAccount**, but because method overriding is handled at runtime, if you call a **BankAccount** method, we'll see something **CheckingAccount** specific if it exists
             * However as the compiler believes **kaylasAccount** to just be a **BankAccount** we cannot call a method that is exclusive to the **CheckingAccount** class on it
+* It is possible to use objects of different classes that share the same parent class together in an array or Arraylist
 
 **Constructors**
 * Constructors are object (instances of a class)
