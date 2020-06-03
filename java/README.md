@@ -169,6 +169,14 @@
     * syntax:
         * _for (String inventoryItem : inventoryItems) { // do something with each inventoryItem }_
 
+## Debugging
+
+**Exceptions**
+* `ArithmeticException`: Something went wrong during an arithmetic operation; for example, division by zero.
+* `NullPointerException`: You tried to access an instance variable or invoke a method on an object that is currently null.
+* `ArrayIndexOutOfBoundsException`: The index you are using is either negative or greater than the last index of the array (i.e., array.length-1).
+* `FileNotFoundException`: Java didn’t find the file it was looking for.
+
 ## Libraries
 * `java.util.Arrays`
 * `java.util.ArrayList`
